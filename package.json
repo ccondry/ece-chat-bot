@@ -1,0 +1,25 @@
+{
+  "name": "ece-chat-bot",
+  "version": "1.0.0",
+  "description": "Example of programmatically connecting to ECE chat. Used for creating chat bots for ECE.",
+  "main": "test/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccondry/ece-chat-bot"
+  },
+  "keywords": [
+    "bot",
+    "chat",
+    "cisco",
+    "ece"
+  ],
+  "author": "Coty Condry <ccondry@cisco.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "node-strophe": "git+https://github.com/juxe/node-strophe.git"
+  }
+}
